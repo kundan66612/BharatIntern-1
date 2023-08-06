@@ -1,0 +1,39 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #C4FFFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    margin: 30;
+}
+
+.container 
+{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #FCDEBA;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 
+{
+    margin-bottom: 20px;
+}
+
+input, select, button 
+{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+button:hover 
+{
+    background-color: #FFF9B5;
+}
